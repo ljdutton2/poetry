@@ -4,7 +4,7 @@ from random import randint
 poem = open("poem.txt","r").read()
 poem_spanish = "1 ¡Oh, girasol! La reina de todas las flores, \ n 2 Ninguna otra contigo puede compararse, \ n 3 La carretera y los campos están dorados \ n 4 Debido a tu brillante presencia allí. \ N 5 Por encima de todas las malezas que rodean tú \ n 6 Levantas al sol tu cabeza brillante, \ n 7 Bordando hermosos paisajes \ n 8 Tu ausencia dejaría marrón y muerto "
 
-lines_list = poem.split('\n')
+poem_spanish = "1 ¡Oh, girasol! La reina de todas las flores, \ n 2 Ninguna otra contigo puede compararse, \ n 3 La carretera y los campos están dorados \ n 4 Debido a tu brillante presencia allí. \ N 5 Por encima de todas las malezas que rodean tú \ n 6 Levantas al sol tu cabeza brillante, \ n 7 Bordando hermosos paisajes \ n 8 Tu ausencia dejaría marrón y muerto "
 
 #prints the lines in random orders
 def lines_random(lines_list):
